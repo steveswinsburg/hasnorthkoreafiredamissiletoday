@@ -9,4 +9,4 @@ deploy:
   bucket: hasnorthkoreafiredamissiletoday.com
   acl: public_read
   skip_cleanup: true
-  region: us-east-1
+  region: us-east-2

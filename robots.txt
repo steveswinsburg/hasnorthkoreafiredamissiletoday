@@ -1,4 +1,2 @@
 User-agent: *
-Disallow: /scripts/
-Disallow: /styles/
-Disallow: /data/
+Disallow: 

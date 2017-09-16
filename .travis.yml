@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- node
+deploy:
+  provider: s3
+  access_key_id: AKIAJCQKA7QX6TPN5C2A
+  secret_access_key:
+    secure: dQ13a7jtPbsXbooVQcueNo0qxkVJjDjy3098SujgzyvjTEjlhbXg+ygA8ajR4DLEpjVg28+a8iYY/aKfYXVSNcdkGiaWGj/ufhB+HrqmL8hUCEb0ytVfqTQ92wMpKMDJr6+BgYojNaR3+8JS5CiuYyo87Vh171AO04p6nzoFffbbBC0D3e4F60LY/EaGpjcpP/CxnjdsFFSp2C2it114bBbYG3HaOHbitlCPvDzz78u0R5+zwnq7r2pMaPBKVvQi9OgwWyYdX9jKGz/Xf3MQ7LY96lrRRWlo/dUJPFpfiLn0TmVnP8tn2dXspspkpsZ+JoxQRBj0Smi4nHyH4iPjqEnSMK3FOfg7RFY2qBJaOclL0mNMD7M4vYMJDPKbNHIa1lbhQ8aKTPbvAzFdbspLuT8JfJwemE9Xrb4Vik+kbjPvKj7EvWwYUV5HcBeaXcOhMOyP0IbWnGma6+hg3uc3PBl2bqBU1TXxf0Ug9tQQNHt57Rn6ko41ExB+oxULnSk+r12rCNbiiMI+wYpE+2BehlNPwlMtndsv2cvdoqt1O5W59Pt2CkopoHRsV45Ldfa/tbSaimjA+U5w1kipo9DoL4dF/Siu5EPRviriXqQ7vhyeLnpPwHu7SuAywBGCF7mcdM40BBRpeRy/7n3vHIBZEmahj5EvpDL5rXGd8nBdg9g=
+  bucket: hasnorthkoreafiredamissiletoday.com
+  acl: public_read
+  skip_cleanup: true
+  region: us-east-2
